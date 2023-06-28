@@ -46,7 +46,7 @@ body {
 
 /* footer */
 .footer {
-  background: #F4F4F4;
+  background-color: #ECF2FF;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,4 +70,12 @@ body {
 }
 .footer .fa-heart {
   color: #D23333;
+}
+
+/* Serviços */
+.texto-paginas {
+  text-align: justify;
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 800px;
 }
