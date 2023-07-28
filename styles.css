@@ -8,11 +8,18 @@ body {
   padding: 10px 47px;
 }
 
+.features {
+  text-align: center;
+  display: space-between;
+  padding: 150px 0;
+}
+
 /* banner */
 .banner {
   background-size: cover;
   background-position: center;
   padding: 270px 0;
+  height: 100vh;
 }
 
 .banner h1 {
