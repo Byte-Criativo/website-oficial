@@ -14,6 +14,14 @@ body {
   padding: 150px 0;
 }
 
+.text {
+  font-size: larger;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 800px;
+
+}
 /* banner */
 .banner {
   background-size: cover;
@@ -77,12 +85,4 @@ body {
 }
 .footer .fa-heart {
   color: #D23333;
-}
-
-/* Serviços */
-.texto-paginas {
-  text-align: justify;
-  margin: 0 auto;
-  padding: 50px 0;
-  max-width: 800px;
 }
