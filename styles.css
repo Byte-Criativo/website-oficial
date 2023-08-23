@@ -1,24 +1,19 @@
-* { margin: 0; padding: 0; }
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #ECF2FF;
   font-family: 'Montserrat', sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .navbar {
   justify-content: space-between;
   padding: 10px 47px;
+
 }
 
 .features {
   text-align: center;
   display: space-between;
-  padding: 20vh;
+  padding: 150px;
 }
 
 .text {
@@ -112,6 +107,10 @@ body {
         height: auto;
         padding: 20px 15px;
     }
+
+    .features {
+      text-align: center;
+    }
 }
 
 
@@ -126,5 +125,10 @@ body {
 
     .btn-flat {
         padding: 5px 12px;
+    }
+
+    .features {
+      text-align: center;
+      padding: 100px;
     }
 }
