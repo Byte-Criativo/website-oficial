@@ -1,6 +1,7 @@
 body {
   background-color: #ECF2FF;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
