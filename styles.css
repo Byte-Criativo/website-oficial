@@ -1,7 +1,7 @@
 body {
   background-color: #ECF2FF;
   font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Evita rolagem horizontal */
 }
 
 .navbar {
@@ -21,9 +21,8 @@ body {
   margin: 0 auto;
   padding: 0 10px;
   max-width: 800px;
-
 }
-/* banner */
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -46,7 +45,6 @@ body {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-/* button */
 .btn-flat {
   color: white;
   padding: 8px 24px;
@@ -60,7 +58,6 @@ body {
   color: white;
 }
 
-/* footer */
 .footer {
   background-color: #ECF2FF;
   display: flex;
@@ -70,10 +67,12 @@ body {
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
 }
+
 .footer-links {
   display: flex;
   align-items: center;
 }
+
 .footer-links a {
   color: black;
   opacity: 0.15;
@@ -81,9 +80,45 @@ body {
   font-size: 24px;
   padding: 0px 10px;
 }
+
 .footer-links a:hover {
   opacity: 1;
 }
+
 .footer .fa-heart {
   color: #D23333;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px) {
+    .text {
+        font-size: medium;
+        padding: 0 5px;
+    }
+
+    .navbar {
+        padding: 10px 15px;
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 15px;
+    }
+}
+
+/* Para telas muito pequenas, como smartphones */
+@media only screen and (max-width: 480px) {
+    .navbar {
+        padding: 5px 10px;
+    }
+
+    .text {
+        font-size: small;
+    }
+
+    .btn-flat {
+        padding: 5px 12px;
+    }
 }
